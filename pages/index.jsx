@@ -19,7 +19,7 @@ export default function Home() {
       method: "GET"
     };
 
-    const api_key = "_mf_4ngEeemMuX-f-d2WSf8es7PrXlvZ";
+    const api_key = "ALCHEMY API_KEY;
     const base_url = `https://eth-mainnet.alchemyapi.io/v2/${api_key}/getNFTs/`;
     const fetchURL = `${base_url}?owner=${wallet}`;
     if (wallet.length == 0) {
